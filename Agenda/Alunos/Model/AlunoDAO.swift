@@ -17,6 +17,7 @@ class AlunoDAO: NSObject {
         return appDelegate.persistentContainer.viewContext
     }
     
+    
     func recuperaAlunos() -> Array<Aluno> {
         
         
@@ -71,6 +72,11 @@ class AlunoDAO: NSObject {
     
         }
         
+        atualizaContexto()
+    }
+    
+    func deletaAluno(aluno:Aluno){
+        contexto.delete(aluno)
         atualizaContexto()
     }
     
