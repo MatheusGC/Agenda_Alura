@@ -85,7 +85,7 @@ class AlunoViewController: UIViewController, ImagePickerFotoSelecionada {
         
         
         let dicionario:Dictionary<String, String> = [
-            "id" : String(describing: UUID()),
+            "id" : String(describing: UUID()).lowercased(),
             "nome" : nome,
             "endereco" :endereco,
             "telefone" : telefone,
