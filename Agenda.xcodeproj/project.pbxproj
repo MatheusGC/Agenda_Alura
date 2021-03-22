@@ -18,6 +18,9 @@
 		59E58E1C2605328600B7BE58 /* AlunoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E58E1B2605328600B7BE58 /* AlunoAPI.swift */; };
 		59E58E1E2605437B00B7BE58 /* Repositorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E58E1D2605437B00B7BE58 /* Repositorio.swift */; };
 		59E58E202605444C00B7BE58 /* AlunoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E58E1F2605444C00B7BE58 /* AlunoDAO.swift */; };
+		59F970B52606E09D007BEC20 /* LigacaoTelefonica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F970B42606E09D007BEC20 /* LigacaoTelefonica.swift */; };
+		59F970B72606E337007BEC20 /* Safari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F970B62606E337007BEC20 /* Safari.swift */; };
+		59F970B92606E5BF007BEC20 /* Filtro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F970B82606E5BF007BEC20 /* Filtro.swift */; };
 		658B1AA82006456B006D944C /* AutenticacaoLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B1AA72006456B006D944C /* AutenticacaoLocal.swift */; };
 		65F277D520068C1900A8F1BF /* icon_caelum.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F277D420068C1900A8F1BF /* icon_caelum.png */; };
 		65F277D92006901C00A8F1BF /* Pino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F277D82006901C00A8F1BF /* Pino.swift */; };
@@ -46,6 +49,9 @@
 		59E58E1B2605328600B7BE58 /* AlunoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoAPI.swift; sourceTree = "<group>"; };
 		59E58E1D2605437B00B7BE58 /* Repositorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositorio.swift; sourceTree = "<group>"; };
 		59E58E1F2605444C00B7BE58 /* AlunoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoDAO.swift; sourceTree = "<group>"; };
+		59F970B42606E09D007BEC20 /* LigacaoTelefonica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigacaoTelefonica.swift; sourceTree = "<group>"; };
+		59F970B62606E337007BEC20 /* Safari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safari.swift; sourceTree = "<group>"; };
+		59F970B82606E5BF007BEC20 /* Filtro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtro.swift; sourceTree = "<group>"; };
 		658B1AA72006456B006D944C /* AutenticacaoLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutenticacaoLocal.swift; sourceTree = "<group>"; };
 		65F277D420068C1900A8F1BF /* icon_caelum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_caelum.png; sourceTree = "<group>"; };
 		65F277D82006901C00A8F1BF /* Pino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pino.swift; sourceTree = "<group>"; };
@@ -203,6 +209,9 @@
 				B9EA19FA1FDEBEAD00403CE0 /* Localizacao.swift */,
 				B9D565A61FE14ECA00BDA536 /* Notificacoes.swift */,
 				658B1AA72006456B006D944C /* AutenticacaoLocal.swift */,
+				59F970B42606E09D007BEC20 /* LigacaoTelefonica.swift */,
+				59F970B62606E337007BEC20 /* Safari.swift */,
+				59F970B82606E5BF007BEC20 /* Filtro.swift */,
 			);
 			path = Componentes;
 			sourceTree = "<group>";
@@ -351,15 +360,18 @@
 				03AA176D1FC8515A003CB2B8 /* AlunoViewController.swift in Sources */,
 				59E58E1C2605328600B7BE58 /* AlunoAPI.swift in Sources */,
 				65F277D92006901C00A8F1BF /* Pino.swift in Sources */,
+				59F970B92606E5BF007BEC20 /* Filtro.swift in Sources */,
 				59E58E202605444C00B7BE58 /* AlunoDAO.swift in Sources */,
 				03AA17661FC84353003CB2B8 /* HomeTableViewController.swift in Sources */,
 				03AA17561FC84154003CB2B8 /* Agenda.xcdatamodeld in Sources */,
 				A281001A1FD5C2F700E1BDF1 /* ImagePicker.swift in Sources */,
 				B911302A1FE05358002768A7 /* CalculaMediaAPI.swift in Sources */,
 				03AA17681FC843B1003CB2B8 /* HomeTableViewCell.swift in Sources */,
+				59F970B72606E337007BEC20 /* Safari.swift in Sources */,
 				B9518EFC1FD9BCEB00EBAFA5 /* MenuOpcoesAlunos.swift in Sources */,
 				B939B9B81FDAC2630084A557 /* Mensagem.swift in Sources */,
 				B9D565A71FE14ECA00BDA536 /* Notificacoes.swift in Sources */,
+				59F970B52606E09D007BEC20 /* LigacaoTelefonica.swift in Sources */,
 				59E58E1E2605437B00B7BE58 /* Repositorio.swift in Sources */,
 				B9FFD4511FDEE6F700CEE593 /* MapaViewController.swift in Sources */,
 				03AA174E1FC84154003CB2B8 /* AppDelegate.swift in Sources */,
